@@ -64,7 +64,7 @@ ggplot(data=avgStepsPerInterval, aes(interval, steps)) + geom_line() + ggtitle("
 
 
 The interval which has the highest average number of steps is: **835**
-```{r, echo+TRUE}
+```{r, echo=TRUE}
 maxMeanInterval <- avgStepsPerInterval[which.max(avgStepsPerInterval$steps),1]
 ```
 
